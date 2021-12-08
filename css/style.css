@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  /* по умолчанию */
+  /* font-size: 16px;  */
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+body {
+  line-height: 1;
+  background-color: #1a1a1a;
+  font-size: 30px;
+}
+
+a {
+  color: inherit;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* ------------------------------ */
+.some-main {
+  padding: 30px;
+}
+
+.some-main__list {
+  padding: 60px 10px;
+  background-color: rgba(20, 10, 10, 0.3);
+  padding-left: 30px;
+}
+
+.some-main__item {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.active {
+  color: red;
+  background-color: rgba(20, 10, 10, 0.3);
+}
+
+.active:hover {
+  background-color: royalblue;
+}
+
+.number::before {
+  content: "3";
+  color: royalblue;
+}
+
+.btn {
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: seagreen;
+  padding: 5px 15px;
+}
+
+.btn:active {
+  background-color: skyblue;
+}
+
+.btn2 {
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: teal;
+  padding: 5px 15px;
+}
+
+.btn2:active {
+  background-color: skyblue;
+}
+
+.btn3 {
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: yellow;
+  padding: 5px 15px;
+}
+
+.btn3:active {
+  background-color: skyblue;
+}
+
+.bg {
+  background: url(../img/kartinki-21102020-001.jpg) center/contain no-repeat;
+}

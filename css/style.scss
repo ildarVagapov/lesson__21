@@ -1,0 +1,83 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import "_null";
+
+body {
+	line-height: 1;
+	background-color: #1a1a1a;
+	font-size: 30px;
+}
+
+a {
+	color: inherit;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+/* ------------------------------ */
+.some-main {
+	padding: 30px;
+	// .some-main__list
+	&__list {
+		padding: 60px 10px;
+		background-color: rgba(20, 10, 10, 0.3);
+		padding-left: 30px;
+	}
+	// .some-main__item
+	&__item {
+		cursor: pointer;
+		margin-bottom: 10px;
+	}
+}
+.active {
+	color: red;
+	background-color: rgba(20, 10, 10, 0.3);
+	&:hover {
+		background-color: royalblue;
+	}
+}
+
+.number::before {
+	content: "3";
+	color: royalblue;
+}
+
+.btn {
+	font-size: 20px;
+	border-radius: 10px;
+	background-color: seagreen;
+	padding: 5px 15px;
+	&:active {
+		background-color: skyblue;
+	}
+}
+
+.btn2 {
+	font-size: 20px;
+	border-radius: 10px;
+	background-color: teal;
+	padding: 5px 15px;
+	&:active {
+		background-color: skyblue;
+	}
+}
+
+.btn3 {
+	font-size: 20px;
+	border-radius: 10px;
+	background-color: yellow;
+	padding: 5px 15px;
+	&:active {
+		background-color: skyblue;
+	}
+}
+
+.bg {
+	background: url(../img/kartinki-21102020-001.jpg) center / contain no-repeat;
+}
